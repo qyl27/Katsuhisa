@@ -1,8 +1,10 @@
-# 新建一个 Minecraft 服务器
+# 来看看全新的 Minecraft 服务器
 
-在新建一个 Minecraft 服务器之前，你的服务器需要安装 Java 8+。（1.8下的**原版**请使用 Java 7）
+## 我需要有什么？
 
-[若您的服务器尚未安装Java...](./Get_Java.md)
+一个装好了 Java 的 PC （或者服务器）。
+
+[如果还没有装 Java 的话，那我只能教教你了。](articles/starting-a-server/installing-java.md)
 
 ## 开始部署
 
@@ -69,7 +71,7 @@ eula=false
 
 恩..一份协议书。开服需要同意Mojang的最终用户协议，我们选择同意。  将**eula=false**改成**eula=true**
 
-[关于Mojang Eula](../What_is_eula.md)
+[关于Mojang Eula](articles/starting-a-server/What_is_eula.md)
 
 再次双击`双击我.bat`。
 
@@ -97,7 +99,7 @@ eula=false
 
 这可真多命令！事实上，目前大部分的命令如同他的描述一般，是原版Minecraft提供的命令。不过需要注意的是，**在控制台输入命令*不要*在命令前面带一个 / **
 
-[关于命令与参数](Command_And_Arguments.md)
+[关于命令与参数](articles/starting-a-server/Command_And_Arguments.md)
 
 ### 我要如何关闭我的服务器
 
@@ -109,7 +111,7 @@ eula=false
 
 # END
 
-本章结束。[下一章](../2/After_First_Start.md)
+本章结束。[下一章](articles/after-server-ran/After_First_Start.md)
 
 若您感到有帮助，欢迎[赞助](https://afdian.net/@omgib67)或者点个Star！
 

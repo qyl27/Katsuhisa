@@ -10,7 +10,7 @@
 >
 > 该章节较为枯燥，请耐心观看
 
-[若您尚未习得如何读配置文件](Config.md)
+[若您尚未习得如何读配置文件](articles/after-server-ran/Config.md)
 
 这是每个 Minecraft 服务端都有的东西，用于描述服务器基本设定。
 
@@ -39,7 +39,7 @@
 ## 安装插件
 
 下载[示例插件](../../examples/After_First_Start/1/ExamplePlugin.jar)到您服务端的`plugins`中，启动服务器，观察日志变化。  
-[当插件只有源码时..](./Compile_Plugin.md)  
+[当插件只有源码时..](articles/after-server-ran/Compile_Plugin.md)  
 
 我们可以观察到：
 
@@ -70,7 +70,7 @@ config.yml内容:
 ```
 
 开启`enable_me`，发现服务器可以正常启动。  
-[若您尚未习得如何读配置文件](Config.md)  
+[若您尚未习得如何读配置文件](articles/after-server-ran/Config.md)  
 
 此时您已成功安装并配置了 `EditConfig` 插件。( 注意： 其他插件没配置不一定就是启动不成功, 请参考插件自身介绍。 )  
 
@@ -146,7 +146,7 @@ Katsuhisa 推荐使用 LuckPerms，但是如果无法接受 LuckPerms，使用 G
 
 插件通常具有命令以供操作。输入`/插件名:`+`TAB`后便可看到该插件的命令列表。
 
-[关于命令的更多细节](../1/Command_And_Arguments.md)
+[关于命令的更多细节](articles/starting-a-server/Command_And_Arguments.md)
 
 同样的，**通常**在plugin.yml也可以看到插件所具有的命令列表以及对应描述。
 
@@ -160,4 +160,4 @@ Katsuhisa 推荐使用 LuckPerms，但是如果无法接受 LuckPerms，使用 G
 
 若您感到有帮助，欢迎[赞助](https://afdian.net/@omgib67)或者点个Star！
 
-[下一章](../3/The_Fucking_SpigotEcoSystem.md)将会讲解`服务端核心`相关。
+[下一章](articles/talking-about-server-cores/The_Fucking_SpigotEcoSystem.md)将会讲解`服务端核心`相关。
